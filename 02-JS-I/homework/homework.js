@@ -45,17 +45,21 @@ function resta(x, y) {
   // Tu código:
   var numero=x-y;
   return numero;
-  
+
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var producto=x*y;
+  return producto;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  var resultado=x/y;
+  return resultado;
 }
 
 function sonIguales(x, y) {
