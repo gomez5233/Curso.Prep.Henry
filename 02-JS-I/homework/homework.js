@@ -113,6 +113,11 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  var resto= num % 2;
+  if(resto==0)
+  return true;
+  else
+  return false;
 }
 
 function esImpar(num) {
