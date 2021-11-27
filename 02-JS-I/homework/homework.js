@@ -142,6 +142,8 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var potencia=Math.pow(num, 3);
+  return potencia;
 }
 
 function elevar(num, exponent) {
