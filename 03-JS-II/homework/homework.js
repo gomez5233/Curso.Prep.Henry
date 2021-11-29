@@ -30,7 +30,8 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if(status==1){
     return "Online";
-  }else if(status==2){
+  }
+  else if(status==2){
     return "Away";
   }
   else{
@@ -46,6 +47,19 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if(idioma==="aleman"){
+    return "Guten Tag!";
+  }
+  else if(idioma==="mandarin"){
+    return "Ni Hao!";
+    
+  }
+  else if(idioma==="ingles"){
+    return "Hello!";
+  }
+  else{
+    return "Hola!";
+  }
 }
 
 function colors(color) {
