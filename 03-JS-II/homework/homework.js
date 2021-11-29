@@ -179,16 +179,16 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   var cont=0;
   if (numero==0 || numero==1){
-  return "El numero no es primo";}
+  return false;}
   else{
   for(var i=2; i<=numero; i++){
   var resto=numero%i;
   if(resto==0){
   cont++;}  }
   if(cont>1){
-  return "El numero no es primo";}
+  return false;}
   
-  return "El numero es primo";}
+  return true;}
   }
   
   
