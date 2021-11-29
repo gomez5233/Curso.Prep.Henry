@@ -132,7 +132,7 @@ function fizzBuzz(numero) {
   if(numero%5==0)
     return "buzz";
 
-  if(numero%5==0 && numero%3==0)
+  if(numero%15==0 )
   return "fizzbuzz";
 
   return numero;
