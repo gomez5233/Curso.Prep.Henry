@@ -129,10 +129,10 @@ function fizzBuzz(numero) {
   if(numero%3==0){
     return "fizz";
   }
- if(numero%5==0){
+ else if(numero%5==0){
     return "buzz";
   }
-  if(numero%3==0 && numero%5==0){
+  else if(numero%3==0 && numero%5==0){
     return "fizzbuzz";
   }
 else{
