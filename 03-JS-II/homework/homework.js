@@ -187,6 +187,7 @@ function esPrimo(numero) {
     }
     if(cont<=2){
       return true;}
+      return false;
     
     }
     return false;}
