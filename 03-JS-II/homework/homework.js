@@ -177,16 +177,23 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+  var cont=0;
+  if(numero!=0 && numero!=1){
   for(var i=1; i<=numero; i++){
-    if(numero<=1){
-    return false;}
-
-    else if(i%1==0 && i%numero==0){
-      return true;
+    var resto=numero/i;
+    if(Math.floor(resto)==0){
+      var cont=cont+1; 
     }
-  }
+    if(cont<=2){
+      return true;}
+      return false;
+    }}
+    return false;}
+  
+    
+  
 
-  }
+  
 
   
 
