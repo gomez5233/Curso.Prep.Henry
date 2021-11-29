@@ -29,7 +29,7 @@ function incrementarPorUno(array) {
   
   var nuevoArray= [];
   for( var i=0; i<array.length; i++){
-   nuevoArray[i]= array[i+1];
+   nuevoArray[i]= array[i]+1;
   }
   return nuevoArray;
 }
