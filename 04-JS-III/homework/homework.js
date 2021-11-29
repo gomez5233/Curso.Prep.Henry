@@ -27,11 +27,11 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   
-  var array [];
-  for(i=0; array.length-1; i++){
-    array.push(i+1);
+  var nuevoArray= [];
+  for(i=0; i<array.length; i++){
+   nuevoArray= array[i+1];
   }
-  return array;
+  return nuevoArray;
 }
 
 
