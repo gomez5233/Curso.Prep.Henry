@@ -178,20 +178,20 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   var cont=0;
+  if (numero==0 || numero==1){
+  return "El numero no es primo";}
+  else{
+  for(var i=2; i<=numero; i++){
+  var resto=numero%i;
+  if(resto==0){
+  cont++;}  }
+  if(cont>1){
+  return "El numero no es primo";}
   
-  for(var i=1; i<=numero; i++){
-    if(numero!=0 && numero!=1){
-    var resto=numero/i;
-    if(Math.floor(resto)==0){
-      var cont=cont+1; 
-    }
-    if(cont<=2){
-      return true;}
-      return false;
-    
-    }
-    return false;}
+  return "El numero es primo";}
   }
+  
+  
   
     
   
