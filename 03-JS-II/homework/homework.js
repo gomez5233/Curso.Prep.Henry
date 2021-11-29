@@ -112,7 +112,10 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return Math.floor(numero);
+  if (numero-Math.floor(numero)==0){
+    return true;
+  }
+  return false;
 }
 
 function fizzBuzz(numero) {
