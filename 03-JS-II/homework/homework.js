@@ -178,8 +178,9 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   var cont=0;
-  if(numero!=0 && numero!=1){
+  
   for(var i=1; i<=numero; i++){
+    if(numero!=0 && numero!=1){
     var resto=numero/i;
     if(Math.floor(resto)==0){
       var cont=cont+1; 
