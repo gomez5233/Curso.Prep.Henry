@@ -68,7 +68,9 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   let existe=array.indexOf(elemento);
-  return existe;
+  if(existe){
+  return true;}
+  return false;
 }
 
 
