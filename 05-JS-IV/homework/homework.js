@@ -58,7 +58,7 @@ function tienePropiedad(objeto, propiedad) {
   // Tu código:
 }
 
-function verificarPassword(usuario, password) {
+function verificarPassword(usuarios, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
