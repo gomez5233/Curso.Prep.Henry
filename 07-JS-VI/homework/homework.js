@@ -1,6 +1,6 @@
 // Do not change any of the function names
 
-function mayuscula(nombre) {
+function mayuscula(Orlando) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
