@@ -67,7 +67,7 @@ function dePalabrasAFrase(palabras) {
     return misPalabras;
 
   }
-}
+
 
 
 function arrayContiene(array, elemento) {
