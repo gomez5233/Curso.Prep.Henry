@@ -71,7 +71,7 @@ function arrayContiene(array, elemento) {
   let existe=array.indexOf(elemento);
   if(existe!=null){
   return true;}
-  return false;
+  return true;
 }
 
 
