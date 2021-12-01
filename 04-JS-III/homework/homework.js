@@ -63,7 +63,7 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   //var palabras= new Array();
   
-    var misPalabras =palabras.join['  '];
+    var misPalabras =palabras.join('  ');
     return misPalabras;
 
   }
