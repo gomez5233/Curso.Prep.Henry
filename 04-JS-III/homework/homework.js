@@ -141,9 +141,9 @@ function cuentoElementos(arreglo){
     if(arreglo[i]>18){
       cont=cont+1;
     }
-    return cont;
+    
   }
-
+  return cont;  
 }
 
 
