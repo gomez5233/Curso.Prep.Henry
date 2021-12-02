@@ -122,11 +122,11 @@ function multiplicarArgumentos() {
   // Escribe tu código aquí:
   var producto=0;
   for(i=0; i<multiplicarArgumentos.length;i++){
-    producto=producto*arguments[i];
+    producto=producto*arguments[i];}
     return producto;
 
   }
-}
+
 
 
 function cuentoElementos(arreglo){
