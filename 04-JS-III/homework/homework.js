@@ -166,11 +166,11 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   
-  let miarraynumero=numerToArray(n);
-  if(miarraynumero[0]===9){
-    return true;
-  }
-  return false;
+ let cad=n.toString();
+ if(cad[0]==9){
+   return true;
+ }
+ return false;
   
 }
 
