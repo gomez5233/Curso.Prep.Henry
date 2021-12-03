@@ -166,7 +166,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   
-  var miarraynumero=numerToArray(n);
+  let miarraynumero=numerToArray(n);
   if(miarraynumero[0]===9){
     return true;
   }
