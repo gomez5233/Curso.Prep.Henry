@@ -101,7 +101,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   this.nuevaPassword= nuevaPassword;
-  return objeto;
+  return nuevaPassword;
 }
 
 function agregarAmigo(usuario, nuevoAmigo) {
