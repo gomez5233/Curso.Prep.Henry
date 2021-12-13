@@ -8,14 +8,20 @@ function crearGato(nombre, edad) {
   // Tu código:
   const objeto = {
     nombre:nombre,
-    edad:edad,}
-
-  function meow(){
-    return "Meow!";
+    edad:edad,
+    meow: function(){
+      return "Meow!";
+    }
+  
+    
   }
   return objeto;
-
+  
 }
+
+
+
+
 
   
 
