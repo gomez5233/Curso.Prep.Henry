@@ -67,7 +67,7 @@ function nuevoUsuario(nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   
-  const objeto={
+  var objeto={
     nombre:nombre,
     email:email,
     password:password
@@ -80,9 +80,10 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if(usuario.email==undefined)
+  if(usuario.email){
+    return true;
+  }
   return false;
-  return true;
 
 
 }
