@@ -106,7 +106,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
 
-if(this.password===password){
+if(this.password===[password]){
   return true;
 }
 return false;
