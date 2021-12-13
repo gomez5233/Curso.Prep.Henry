@@ -100,7 +100,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  this.nuevagPassword= nuevaPassword;
+  nuevaPassword= nuevaPassword;
   return usuario;
 }
 
@@ -109,6 +109,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
+  amigos.push("nuevoAmigo");
+  return usuario;
 }
 
 function pasarUsuarioAPremium(usuarios) {
