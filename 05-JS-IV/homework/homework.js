@@ -10,7 +10,7 @@ function crearGato(nombre, edad) {
     nombre:nombre,
     
     edad:edad}
-    
+
   function meow(){
     return "Meow!";
   }
@@ -18,7 +18,7 @@ function crearGato(nombre, edad) {
 }
 
   
-}
+
 
 
 function agregarPropiedad(objeto, property) {
