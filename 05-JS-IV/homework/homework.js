@@ -106,10 +106,10 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
 
-if(this.password!=[password]){
-  return false;
+if(usuario[password]===[password]){
+  return true;
 }
-return true;
+return false;
 
 }
 function actualizarPassword(usuario, nuevaPassword) {
