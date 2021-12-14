@@ -199,4 +199,6 @@ module.exports = {
   pasarUsuarioAPremium,
   sumarLikesDeUsuario,
   agregarMetodoCalculoDescuento
+  
+}
 };
