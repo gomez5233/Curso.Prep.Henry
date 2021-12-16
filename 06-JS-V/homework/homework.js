@@ -26,6 +26,16 @@ function agregarStringInvertida() {
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
 }
+String.prototype.reverse= function (cadena) {
+  var x = cadena.length;
+  var cadenaInvertida = "";
+
+  while (x>=0) {
+    cadenaInvertida = cadenaInvertida + cadena.charAt(x);
+    x--;
+  }
+  return cadenaInvertida;
+}
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"
