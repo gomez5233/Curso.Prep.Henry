@@ -27,11 +27,11 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
 }
 String.prototype.reverse= function (cadena) {
-  var x = cadena.length;
+  var x = this.length;
   var cadenaInvertida = "";
 
   while (x>=0) {
-    cadenaInvertida = cadenaInvertida + cadena.charAt(x);
+    cadenaInvertida = cadenaInvertida + this.charAt(x);
     x--;
   }
   return cadenaInvertida;
