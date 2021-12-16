@@ -25,14 +25,24 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-}
 
-  String.prototype.reverse = function() {
+String.prototype.reverse= function () {
+  var x = this.length;
+  var cadenaInvertida = "";
+
+  while (x>=0) {
+    cadenaInvertida = cadenaInvertida + this.charAt(x);
+    x--;
+  }
+  return cadenaInvertida;
+}
+  /*String.prototype.reverse = function() {
+    
     var stringInvertida = '';
     for(var i = this.length - 1; i>=0; i--) {
       stringInvertida = stringInvertida + this.charAt(i);
     }
-    return stringInvertida;
+    return stringInvertida;*/
 }
 
 // ---------------------------------------------------------------------------//
