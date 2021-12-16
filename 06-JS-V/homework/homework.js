@@ -26,7 +26,7 @@ function agregarStringInvertida() {
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
 }
-String.prototype.reverse= function (cadena) {
+String.prototype.reverse= function () {
   var x = this.length;
   var cadenaInvertida = "";
 
@@ -35,6 +35,7 @@ String.prototype.reverse= function (cadena) {
     x--;
   }
   return cadenaInvertida;
+  
 }
 
 // ---------------------------------------------------------------------------//
