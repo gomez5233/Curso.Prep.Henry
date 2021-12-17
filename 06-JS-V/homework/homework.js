@@ -83,7 +83,7 @@ function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
 }
-Persona.datos= function(nombre,edad){
+Constructor.datos= function(nombre,edad){
 
 return{
   this:nombre, this:edad+ "años"
