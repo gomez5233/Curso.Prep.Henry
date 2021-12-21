@@ -238,7 +238,7 @@ for(var i=0;i<array.length; i++){
 
 
 if(array[i]>100){
-  nuevo.push();
+  nuevo.push(array[i]);
 }
 
 }
