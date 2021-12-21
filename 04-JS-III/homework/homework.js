@@ -232,8 +232,18 @@ return "No se encontraron los meses pedidos"
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  var nuevo=[];
+
+for(var i=0;i<array.length; i++){
+
+
+if(array[i]>100){
+  nuevo.push();
 }
 
+}
+return nuevo;
+}
 
 function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
