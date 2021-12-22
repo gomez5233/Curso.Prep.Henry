@@ -253,21 +253,18 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-var arreglo=[];
-for(var i=o; i<11;i++){
-  if(i==numero[i]+2){
-    return "Se interrumpió la ejecución";
-    break;
-  
+  var arreglo=[];
+  var i = 0;
+  while (i < 11) {
+     if (i == numero[i]+2)
+        break;
+     arreglo.push(numero[i]+2);
   }
-
-else{
-  arreglo.push((numero[i]+2));
   return arreglo;
 }
 
-}
-}
+
+
 function continueStatement(numero) {
 
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
