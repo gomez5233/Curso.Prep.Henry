@@ -262,7 +262,7 @@ for(var i=o; i<11;i++){
   return "Se interrumpió la ejecución";}
 
 else{
-  return nuevo;
+  return arreglo;
 }
 
 }
