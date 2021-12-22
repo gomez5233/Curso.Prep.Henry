@@ -255,13 +255,13 @@ function breakStatement(numero) {
   // Tu código:
 var arreglo=[];
 for(var i=o; i<11;i++){
-  arreglo.push((numero[i]+2));
   if(i==numero[i]+2){
     break;
   
   return "Se interrumpió la ejecución";}
 
 else{
+  arreglo.push((numero[i]+2));
   return arreglo;
 }
 
