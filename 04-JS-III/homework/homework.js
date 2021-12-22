@@ -259,9 +259,9 @@ function breakStatement(numero) {
     
     
     if (i == (numero[i]+2)){
-      {
+      
         break;
-    }
+    
     
     return  "Se interrumpió la ejecución";}
     arreglo.push(numero[i]+2);
