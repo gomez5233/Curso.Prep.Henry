@@ -258,7 +258,7 @@ function breakStatement(numero) {
   while (i < 11) {
     
     
-    if (i == numero[i]+2){
+    if (i == (numero[i]+2)){
       {
         break;
     }
