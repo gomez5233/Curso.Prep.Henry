@@ -266,7 +266,9 @@ else{
 }
 
 }
+}
 function continueStatement(numero) {
+
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
   //Guardar cada nuevo valor en un array.    
   //Devolver el array
@@ -301,5 +303,4 @@ module.exports = {
   breakStatement,
   continueStatement
   
-}
 }
