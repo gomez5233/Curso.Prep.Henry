@@ -256,9 +256,10 @@ function breakStatement(numero) {
 var arreglo=[];
 for(var i=o; i<11;i++){
   if(i==numero[i]+2){
+    return "Se interrumpió la ejecución";
     break;
   
-  return "Se interrumpió la ejecución";}
+  }
 
 else{
   arreglo.push((numero[i]+2));
