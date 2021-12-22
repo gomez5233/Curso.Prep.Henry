@@ -253,18 +253,7 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var arreglo=[];
-  var i = 0;
-  while (i < 11) {
-    arreglo.push(numero[i]+2);
-    
-    if (i == (numero[i]+2)){
-      
-      break;
-    return  "Se interrumpió la ejecución";}
-  } 
-    return arreglo;
-      
+ 
   
 }
 
