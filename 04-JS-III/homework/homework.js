@@ -256,14 +256,16 @@ function breakStatement(numero) {
   var arreglo=[];
   var i = 0;
   while (i < 11) {
-    
+    arreglo.push(numero[i]+2);
     
     if (i == (numero[i]+2)){
-  
+      
+      break;
     return  "Se interrumpió la ejecución";}
-    arreglo.push(numero[i]+2);
-  }
-  return arreglo;
+  } 
+    return arreglo;
+      
+  
 }
 
 
@@ -305,3 +307,4 @@ module.exports = {
   continueStatement
   
 }
+
