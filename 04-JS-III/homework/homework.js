@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
-  return array[1];
+  return array[0];
   
 }
 
@@ -256,11 +256,19 @@ function breakStatement(numero) {
   var arreglo=[];
   
   for(var i=0; i<11;i++){
+    if(i===numero[i]+2){
+      break;
+      return "Se interrumpió la ejecución";
+    }
+    else{
     arreglo.push(numero[i]+2);
     
-  }
+    
+    
+  
   return arreglo;
   
+    }
 }
 
 
@@ -303,3 +311,4 @@ module.exports = {
   
 }
 
+}
