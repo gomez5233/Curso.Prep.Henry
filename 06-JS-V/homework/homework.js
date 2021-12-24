@@ -21,6 +21,7 @@ function crearUsuario() {
     return Usuario;
   }
 }
+}
 
 
 function agregarMetodoPrototype(Constructor) {
@@ -116,4 +117,4 @@ module.exports = {
   crearInstanciaPersona,
   agregarMetodo, 
   Persona
-}}
+};
