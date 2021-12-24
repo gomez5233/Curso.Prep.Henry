@@ -116,5 +116,4 @@ module.exports = {
   crearInstanciaPersona,
   agregarMetodo, 
   Persona
-};
-}
+}}
