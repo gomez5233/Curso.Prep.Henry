@@ -20,8 +20,8 @@ function crearUsuario() {
     };
     return Usuario;
   }
-}
-}
+
+
 
 
 function agregarMetodoPrototype(Constructor) {
