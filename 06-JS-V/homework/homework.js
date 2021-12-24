@@ -15,8 +15,8 @@ function crearUsuario() {
     this.email=opciones.email;
     this.password=opciones.password;
 
-    Usuario.constructor.prototype.saludar= function(){
-      return 'Hola mi nombre es $(this.nombre)';
+    Usuario.prototype.saludar= function(){
+      return 'Hola mi nombre es '+this.nombre;
     }
     return Usuario;
   }
